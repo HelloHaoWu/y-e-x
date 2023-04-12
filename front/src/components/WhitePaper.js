@@ -1,8 +1,9 @@
 //@xiaochen
 import React, { useState } from "react";
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack5";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import pdf from "../assets/pdf/whitepaper.pdf";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cat.net/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function WhitePaper() {
   const [numPages, setNumPages] = useState(null);
