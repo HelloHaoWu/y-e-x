@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import pdf from "../whitepaper.pdf";
+import pdf from "../assets/pdf/whitepaper.pdf";
 
 export default function WhitePaper() {
   const [numPages, setNumPages] = useState(null);

@@ -1,7 +1,7 @@
 // @xiaochen
 import { ConnectKitButton, ConnectKitProvider } from "connectkit";
 import React from "react";
-import logo from "./images/logo.png";
+import logo from "../assets/images/scroll.png";
 
 export default function AppHeader() {
   return (
@@ -33,7 +33,7 @@ export default function AppHeader() {
                 </div>
               </div>
               <div className="flex items-center space-x-4 md:space-x-6 mb-[2px]">
-              <div className="relative">
+                <div className="relative">
                   <div>
                     <a
                       href="main"

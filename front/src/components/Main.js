@@ -1,10 +1,10 @@
 //@xiaochen
 import React from "react";
-import bg from "./images/intro/bg.png";
-import curve from "./images/intro/curve.png";
-import honypot from "./images/intro/honypot.png";
-import scroll from "./images/intro/scroll.png";
-import berachain from "./images/intro/berachain.png";
+import bg from "../assets/images/intro/bg.png";
+import curve from "../assets/images/intro/curve.png";
+import honypot from "../assets/images/intro/honypot.png";
+import scroll from "../assets/images/intro/scroll.png";
+import berachain from "../assets/images/intro/berachain.png";
 
 export default function Main() {
   return (
@@ -33,13 +33,13 @@ export default function Main() {
               </div>
               <div className="flex flex-col fade-in  gap-1">
                 <p className="text-lg font-medium">
-                  More efficient capital utilization. 
-                  A safer way to provide liquidity.
+                  More efficient capital utilization. A safer way to provide
+                  liquidity.
                 </p>
                 <p className=" w-1/2 text-left text-gray-500 mt-2">
-                Our DeFi fund provides LPers with improved survival 
-                conditions: mining the alpha, hedging the beta and 
-                giving a stable, deep, low-cost liquidity for the community.
+                  Our DeFi fund provides LPers with improved survival
+                  conditions: mining the alpha, hedging the beta and giving a
+                  stable, deep, low-cost liquidity for the community.
                 </p>
               </div>
             </div>
@@ -49,8 +49,8 @@ export default function Main() {
             <div className="flex flex-col gap-6 items-center">
               <p className=" text-4xl font-semibold">Our Mission</p>
               <p className=" w-5/6 text-center">
-                y=e<sup>x</sup> Lab leads people to an easier 
-                and safer way to the DeFi world.
+                y=e<sup>x</sup> Lab leads people to an easier and safer way to
+                the DeFi world.
               </p>
               <a href="/whitepaper">
                 <button className="btn  btn-outline">
@@ -86,7 +86,8 @@ export default function Main() {
             <div className="flex flex-col gap-2 items-center">
               <p className=" text-4xl font-semibold">Built with the Best</p>
               <p className="  text-center">
-                Thanks to our partners and the best builders in the Web3 industry
+                Thanks to our partners and the best builders in the Web3
+                industry
               </p>
               <div>
                 {" "}

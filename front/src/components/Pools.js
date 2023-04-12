@@ -6,7 +6,7 @@ import {
   MailOutlined,
   SettingOutlined,
 } from "@ant-design/icons"; // 给导航菜单用
-import ethicon from "./images/pools/eth.png";
+import ethicon from "../assets/images/pools/eth.png";
 import {
   useContractRead,
   usePrepareContractWrite,
@@ -26,8 +26,8 @@ import { panel_abi, pools_abi } from "../contracts/abis";
 import { ethers } from "ethers";
 
 // For Css
-import stars from "./images/switch/stars.png";
-import moon from "./images/switch/moon.png";
+import stars from "../assets/images/switch/stars.png";
+import moon from "../assets/images/switch/moon.png";
 import "./Pools.css";
 import { type } from "@testing-library/user-event/dist/type";
 // Css Over

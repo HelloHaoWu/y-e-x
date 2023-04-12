@@ -22,10 +22,10 @@ import { message } from "antd";
 
 // For Css
 import "./Exchange.css";
-import stars from "./images/switch/stars.png";
-import moon from "./images/switch/moon.png";
-import m_behind from "./images/switch/mountains_behind.png";
-import m_front from "./images/switch/mountains_front.png";
+import stars from "../assets/images/switch/stars.png";
+import moon from "../assets/images/switch/moon.png";
+import m_behind from "../assets/images/switch/mountains_behind.png";
+import m_front from "../assets/images/switch/mountains_front.png";
 import { useEffect, useState } from "react";
 
 export function Exchange() {
@@ -231,13 +231,13 @@ export function Exchange() {
   ]);
 
   // 检测输入栏的值
-  const [inputValue, setInputValue] = useState("")
-  const [saluteValue, setSaluteValue] = useState("")
+  const [inputValue, setInputValue] = useState("");
+  const [saluteValue, setSaluteValue] = useState("");
   // 根据输入栏的值, 基于输出栏的值
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
     setSaluteValue(event.target.value);
-  }
+  };
 
   return (
     <div id="Switch-body" className="h-full justify-center items-center flex">

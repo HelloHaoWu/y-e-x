@@ -21,10 +21,10 @@ import {
 } from "../contracts/addresses";
 
 import "./Switch.css";
-import stars from "./images/switch/stars.png";
-import moon from "./images/switch/moon.png";
-import m_behind from "./images/switch/mountains_behind.png";
-import m_front from "./images/switch/mountains_front.png";
+import stars from "../assets/images/switch/stars.png";
+import moon from "../assets/images/switch/moon.png";
+import m_behind from "../assets/images/switch/mountains_behind.png";
+import m_front from "../assets/images/switch/mountains_front.png";
 import { buysell_abi } from "../contracts/abis";
 
 export function Switch() {
