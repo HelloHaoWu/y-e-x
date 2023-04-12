@@ -9,6 +9,7 @@ export default function WhitePaper() {
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
+  console.log(pdf);
   return (
     <div className="mt-24 w-full items-center flex justify-center">
       <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>

@@ -1,7 +1,7 @@
 // @xiaochen
 import { ConnectKitButton, ConnectKitProvider } from "connectkit";
 import React from "react";
-import logo from "../assets/images/scroll.png";
+import logo from "../assets/images/logo.png";
 
 export default function AppHeader() {
   return (
