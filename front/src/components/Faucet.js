@@ -82,7 +82,7 @@ export default function Faucet() {
         } ${isLoading ? " loading" : ""} `}
         onClick={faucetClick}
       >
-        {"Faucet" + " : " + tokenD_balance + " " + "$A"}
+        {"Faucet" + " : " + tokenD_balance + " " + "$TEST"}
       </button>
     </div>
   );
