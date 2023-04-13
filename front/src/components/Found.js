@@ -9,17 +9,17 @@ import {
   erc20ABI,
   useAccount,
 } from "wagmi";
-import ethicon from "./images/pools/eth.png";
+import ethicon from "../assets/images/pools/eth.png";
 import { DownloadOutlined } from "@ant-design/icons";
 
 import { message } from "antd";
 
 // For Css
 import "./Found.css";
-import stars from "./images/switch/stars.png";
-import moon from "./images/switch/moon.png";
-import m_front from "./images/switch/mountains_front.png";
-import m_behind from "./images/switch/mountains_behind.png";
+import stars from "../assets/images/switch/stars.png";
+import moon from "../assets/images/switch/moon.png";
+import m_front from "../assets/images/switch/mountains_front.png";
+import m_behind from "../assets/images/switch/mountains_behind.png";
 import { purchase_address, tokenD_address } from "../contracts/addresses";
 import { purchase_abi } from "../contracts/abis";
 // Css Over

@@ -1,6 +1,6 @@
 //@xiaochen
 import React from "react";
-import logo from "./images/logo.png";
+import logo from "../assets/images/logo.png";
 
 export default function Footer() {
   return (

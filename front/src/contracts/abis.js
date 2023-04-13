@@ -1,16 +1,5 @@
 export const tokenD_abi = [
   {
-    inputs: [
-      {
-        internalType: "uint256",
-        name: "initialSupply",
-        type: "uint256",
-      },
-    ],
-    stateMutability: "nonpayable",
-    type: "constructor",
-  },
-  {
     anonymous: false,
     inputs: [
       {
@@ -83,51 +72,6 @@ export const tokenD_abi = [
     inputs: [
       {
         internalType: "address",
-        name: "",
-        type: "address",
-      },
-    ],
-    name: "AccessJudgeForMint",
-    outputs: [
-      {
-        internalType: "bool",
-        name: "",
-        type: "bool",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "CurrentAmount",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "TotalSupply",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        internalType: "address",
         name: "owner",
         type: "address",
       },
@@ -192,24 +136,6 @@ export const tokenD_abi = [
     type: "function",
   },
   {
-    inputs: [
-      {
-        internalType: "address",
-        name: "_account",
-        type: "address",
-      },
-      {
-        internalType: "uint256",
-        name: "_amount",
-        type: "uint256",
-      },
-    ],
-    name: "burn",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
-  {
     inputs: [],
     name: "decimals",
     outputs: [
@@ -243,6 +169,13 @@ export const tokenD_abi = [
         type: "bool",
       },
     ],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "faucet",
+    outputs: [],
     stateMutability: "nonpayable",
     type: "function",
   },
@@ -317,19 +250,6 @@ export const tokenD_abi = [
   {
     inputs: [],
     name: "renounceOwnership",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
-  {
-    inputs: [
-      {
-        internalType: "address",
-        name: "_account",
-        type: "address",
-      },
-    ],
-    name: "setMint",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function",

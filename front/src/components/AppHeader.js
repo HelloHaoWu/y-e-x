@@ -1,7 +1,8 @@
 // @xiaochen
 import { ConnectKitButton, ConnectKitProvider } from "connectkit";
 import React from "react";
-import logo from "./images/logo.png";
+import logo from "../assets/images/logo.png";
+import Faucet from "./Faucet";
 
 export default function AppHeader() {
   return (
@@ -33,7 +34,7 @@ export default function AppHeader() {
                 </div>
               </div>
               <div className="flex items-center space-x-4 md:space-x-6 mb-[2px]">
-              <div className="relative">
+                <div className="relative">
                   <div>
                     <a
                       href="main"
@@ -120,7 +121,8 @@ export default function AppHeader() {
                 </div> */}
               </div>
             </div>
-            <div class="flex flex-row items-center gap-6">
+            <div class="flex flex-row items-center gap-3">
+              <Faucet />
               <div className=" relative">
                 <div className="">
                   <ConnectKitProvider>

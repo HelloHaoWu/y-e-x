@@ -1,45 +1,48 @@
 //@xiaochen
 import React from "react";
-import bg from "./images/intro/bg.png";
-import curve from "./images/intro/curve.png";
-import honypot from "./images/intro/honypot.png";
-import scroll from "./images/intro/scroll.png";
-import berachain from "./images/intro/berachain.png";
+import bg from "../assets/images/intro/bg.png";
+import curve from "../assets/images/intro/curve.png";
+import honypot from "../assets/images/intro/honypot.png";
+import scroll from "../assets/images/intro/scroll.png";
+import berachain from "../assets/images/intro/berachain.png";
 
 export default function Main() {
   return (
     <div class="box-border mx-auto mb-7 min-h-screen md:min-h-auto md:h-auto md:pt-7">
-      <div className="mb-[100px]">
+      <div className="mb-[100px] relative">
         <img
-          className="absolute flex justify-center  w-full top-20 z-negative mt-48"
+          className="absolute flex justify-center  w-full top-20 z-0 mt-48"
           src={curve}
           alt=""
+          // style={{ zIndex: -1, backgroundImage: `url(${curve})` }}
         />
         <div className="flex flex-col box-border mx-auto w-full max-w-screen-lg pt-40">
           <div className="flex flex-col cursor-default">
             <div className="flex flex-col ml-24 text-left m-2 gap-8">
               <div className="flex flex-col max-w-1/2">
                 <div>
-                  <p class="font-medium text-4xl">
+                  <p class="font-medium text-4xl z-40">
                     DeFi Fund for Improved Liquidity{" "}
                   </p>
                 </div>
                 <div>
-                  <p class="font-medium text-4xl">
+                  <p class="font-medium text-4xl z-40">
                     Trading on{" "}
-                    <span className="scrollTextGradient">Scroll Testnet</span>
+                    <span className="scrollTextGradient z-40">
+                      Scroll Testnet
+                    </span>
                   </p>
                 </div>
               </div>
               <div className="flex flex-col fade-in  gap-1">
-                <p className="text-lg font-medium">
-                  More efficient capital utilization. 
-                  A safer way to provide liquidity.
+                <p className="text-lg font-medium z-40">
+                  More efficient capital utilization. A safer way to provide
+                  liquidity.
                 </p>
-                <p className=" w-1/2 text-left text-gray-500 mt-2">
-                Our DeFi fund provides LPers with improved survival 
-                conditions: mining the alpha, hedging the beta and 
-                giving a stable, deep, low-cost liquidity for the community.
+                <p className=" w-1/2 text-left text-gray-500 mt-2 z-40">
+                  Our DeFi fund provides LPers with improved survival
+                  conditions: mining the alpha, hedging the beta and giving a
+                  stable, deep, low-cost liquidity for the community.
                 </p>
               </div>
             </div>
@@ -47,10 +50,10 @@ export default function Main() {
 
           <div className="flex flex-col items-center mt-96 mx-2">
             <div className="flex flex-col gap-6 items-center">
-              <p className=" text-4xl font-semibold">Our Mission</p>
-              <p className=" w-5/6 text-center">
-                y=e<sup>x</sup> Lab leads people to an easier 
-                and safer way to the DeFi world.
+              <p className=" text-4xl font-semibold z-40">Our Mission</p>
+              <p className=" w-5/6 text-center z-40">
+                y=e<sup>x</sup> Lab leads people to an easier and safer way to
+                the DeFi world.
               </p>
               <a href="/whitepaper">
                 <button className="btn  btn-outline">
@@ -86,7 +89,8 @@ export default function Main() {
             <div className="flex flex-col gap-2 items-center">
               <p className=" text-4xl font-semibold">Built with the Best</p>
               <p className="  text-center">
-                Thanks to our partners and the best builders in the Web3 industry
+                Thanks to our partners and the best builders in the Web3
+                industry
               </p>
               <div>
                 {" "}

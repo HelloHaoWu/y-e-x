@@ -6,7 +6,6 @@ import {
 } from "connectkit";
 import { mainnet, goerli, scrollTestnet } from "@wagmi/chains";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
-import logo from "./components/images/scroll.png";
 import "./App.css";
 import { useEffect } from "react";
 import AppHeader from "./components/AppHeader";
