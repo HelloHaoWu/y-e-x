@@ -26,7 +26,7 @@ interface IYEXPoolImmutables { // immutables → 不可变的
     /// @return 返回值是: 该池子的刻度线
     function tickSpacing() external view returns (int24);
 
-    /// @notice 获取每个刻度线范围内可用的最大头寸流动性.
+    /// @notice 获取每个刻度线范围内可用的最大头寸(position)流动性.
     /// @dev 这个参数在每个刻度线处(tick)强制执行一次, 以防止流动性在任何时候溢出uint128, 也防止使用范围外的流动性来防止向池中添加范围内的流动性
     /// @return 每个刻度线处的最大流动金额
     function maxLiquidityPerTick() external view returns (uint128);
