@@ -60,7 +60,7 @@ export function Pools() {
   const getTokenDApproved = useContractRead({
     address: pools_address,
     abi: pools_abi,
-    functionName: "pools",
+    functionName: "pool",
     args: [0],
     watch: true,
     onSuccess(data) {

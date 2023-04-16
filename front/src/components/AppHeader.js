@@ -6,9 +6,9 @@ import logo from "./images/logo.png";
 export default function AppHeader() {
   return (
     <header className="box-border fixed flex flex-col top-0 left-0 w-full h-[80px] z-30 border-b-0">
-      <div class="flex fade-in bg-blue-500 backdrop-blur-md items-center">
-        <div class="mx-auto py-[2px] ">
-          <p class="m-0 font-inter font-normal leading-5 text-xs text-white">
+      <div className="flex fade-in bg-blue-500 backdrop-blur-md items-center">
+        <div className="mx-auto py-[2px] ">
+          <p className="m-0 font-inter font-normal leading-5 text-xs text-white">
             Scroll's Alpha Testnet is now live.
           </p>
         </div>
@@ -16,8 +16,8 @@ export default function AppHeader() {
 
       <div className="relative">
         <div className="box-border px-3 py-2 pl- absolute w-full backdrop-blur-md ">
-          <div class="row2 flex flex-row justify-between items-center flex-wrap gap-y-10 max-w-full">
-            <div class="flex flex-row items-center gap-6">
+          <div className="row2 flex flex-row justify-between items-center flex-wrap gap-y-10 max-w-full">
+            <div className="flex flex-row items-center gap-6">
               <div className="mb-[2px]">
                 <div className=" relative">
                   <div>
@@ -37,10 +37,10 @@ export default function AppHeader() {
                   <div>
                     <a
                       href="/otc"
-                      class="no-underline text-current cursor-default"
+                      className="no-underline text-current cursor-default"
                     >
-                      <div class="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
-                        <p class="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
+                      <div className="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
+                        <p className="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
                           Otc
                         </p>
                       </div>
@@ -50,11 +50,11 @@ export default function AppHeader() {
                 <div className="relative">
                   <div>
                     <a
-                      href="#"
-                      class="no-underline text-current cursor-default"
+                      href="/Pools"
+                      className="no-underline text-current cursor-default"
                     >
-                      <div class="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
-                        <p class="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
+                      <div className="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
+                        <p className="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
                           Pool
                         </p>
                       </div>
@@ -65,10 +65,10 @@ export default function AppHeader() {
                   <div>
                     <a
                       href="#"
-                      class="no-underline text-current cursor-default"
+                      className="no-underline text-current cursor-default"
                     >
-                      <div class="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
-                        <p class="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
+                      <div className="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
+                        <p className="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
                           Launch
                         </p>
                       </div>
@@ -79,10 +79,10 @@ export default function AppHeader() {
                   <div>
                     <a
                       href="#"
-                      class="no-underline text-current cursor-default"
+                      className="no-underline text-current cursor-default"
                     >
-                      <div class="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
-                        <p class="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
+                      <div className="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
+                        <p className="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
                           Protfolio
                         </p>
                       </div>
@@ -93,11 +93,11 @@ export default function AppHeader() {
                   <div>
                     <a
                       href="https://scroll.io/alpha/bridge"
-                      class="no-underline text-current cursor-default"
+                      className="no-underline text-current cursor-default"
                       target="_blank"
                     >
-                      <div class="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
-                        <p class="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
+                      <div className="flex items-center gap-1 md:gap-4 py-2 cursor-pointer">
+                        <p className="m-0 font-inter leading-6 text-base font-medium text-gray-500 opacity-90">
                           Bridge
                         </p>
                       </div>
@@ -106,7 +106,7 @@ export default function AppHeader() {
                 </div>
               </div>
             </div>
-            <div class="flex flex-row items-center gap-6">
+            <div className="flex flex-row items-center gap-6">
               <div className=" relative">
                 <div className="">
                   <ConnectKitProvider>

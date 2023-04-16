@@ -26,7 +26,7 @@ interface IPools {
     // swap
     function swap(
         uint256 amountIn,
-        address[] calldata path,
+        address[] calldata path, // calldata是只读属性
         address to
     ) external;
 }
